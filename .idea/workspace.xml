@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbdccb80-8fcc-4036-9c4a-3a0ec6fcf626" name="Changes" comment="LinkedListHomeWork">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Tree.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2PFy6ExsecNDtEmRZ3aCKEvC8iE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/hammo/Mostafa-onlineCourse/dataStructer/Tree/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hammo/Mostafa-onlineCourse/dataStructer/Tasks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="MostafaSaad.Excrises.singlyLinkedList" />
+      <recent name="MostafaSaad.Excrises.singlyLinkedList.homework3" />
+      <recent name="MostafaSaad.Excrises.singlyLinkedList.homework2" />
+      <recent name="MostafaSaad.Excrises.singlyLinkedList.homwork1" />
+      <recent name="org.example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MostafaSaad.Excrises.singlyLinkedList" />
+      <recent name="MostafaSaad.Excrises.singlyLinkedList.homework3" />
+      <recent name="MostafaSaad.Excrises.singlyLinkedList.homework2" />
+      <recent name="MostafaSaad.Excrises.singlyLinkedList.homwork1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ImplementationOfDataStructerAndAlgorighim" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MostafaSaad.Excrises.singlyLinkedList.homework3.LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.singlyLinkedList.homework3.LinkedList" />
+      <module name="ImplementationOfDataStructerAndAlgorighim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MostafaSaad.Excrises.singlyLinkedList.homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testAddingHuageNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImplementationOfDataStructerAndAlgorighim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MostafaSaad.Excrises.singlyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.singlyLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.singlyLinkedList.LinkedListTest" />
+      <option name="METHOD_NAME" value="testAddingHuageNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testInsertAlternate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImplementationOfDataStructerAndAlgorighim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MostafaSaad.Excrises.singlyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.singlyLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.singlyLinkedList.LinkedListTest" />
+      <option name="METHOD_NAME" value="testInsertAlternate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testMoveItToBack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImplementationOfDataStructerAndAlgorighim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MostafaSaad.Excrises.singlyLinkedList.homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.singlyLinkedList.homework3" />
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.singlyLinkedList.homework3.LinkedListTest" />
+      <option name="METHOD_NAME" value="testMoveItToBack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListWithHeadTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ImplementationOfDataStructerAndAlgorighim" />
+      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.singlyLinkedList.homwork1" />
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.singlyLinkedList.homework1.LinkedListWithHeadTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MostafaSaad.Excrises.singlyLinkedList.homework3.LinkedList" />
+      <item itemvalue="JUnit.LinkedListWithHeadTest" />
+      <item itemvalue="JUnit.LinkedListTest.testAddingHuageNumber" />
+      <item itemvalue="JUnit.LinkedListTest.testInsertAlternate" />
+      <item itemvalue="JUnit.LinkedListTest.testMoveItToBack" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MostafaSaad.Excrises.singlyLinkedList.homework3.LinkedList" />
+        <item itemvalue="JUnit.LinkedListTest.testMoveItToBack" />
+        <item itemvalue="JUnit.LinkedListTest.testAddingHuageNumber" />
+        <item itemvalue="JUnit.LinkedListTest.testInsertAlternate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbdccb80-8fcc-4036-9c4a-3a0ec6fcf626" name="Changes" comment="" />
+      <created>1683066948046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683066948046</updated>
+      <workItem from="1683066949306" duration="2060000" />
+      <workItem from="1683069022887" duration="1248000" />
+      <workItem from="1683125865416" duration="1382000" />
+      <workItem from="1683129514285" duration="12294000" />
+      <workItem from="1683156962744" duration="1876000" />
+      <workItem from="1683208454690" duration="17000" />
+      <workItem from="1683566154233" duration="5691000" />
+      <workItem from="1683746659945" duration="5118000" />
+      <workItem from="1683879192065" duration="3663000" />
+      <workItem from="1683898705759" duration="1537000" />
+      <workItem from="1684091187086" duration="737000" />
+      <workItem from="1684621632095" duration="69000" />
+      <workItem from="1684621779424" duration="1253000" />
+      <workItem from="1684662161266" duration="4520000" />
+      <workItem from="1684691244205" duration="969000" />
+      <workItem from="1684699029573" duration="2964000" />
+      <workItem from="1684781421069" duration="599000" />
+      <workItem from="1684851483027" duration="14498000" />
+      <workItem from="1684912473419" duration="5045000" />
+      <workItem from="1684943095668" duration="15036000" />
+      <workItem from="1685025168832" duration="27000" />
+      <workItem from="1685090936303" duration="1783000" />
+      <workItem from="1685092739207" duration="2066000" />
+      <workItem from="1685113114522" duration="5090000" />
+      <workItem from="1685199015606" duration="7549000" />
+      <workItem from="1685208616162" duration="754000" />
+      <workItem from="1685278143147" duration="499000" />
+      <workItem from="1685289263674" duration="811000" />
+      <workItem from="1685291323957" duration="401000" />
+      <workItem from="1685292193004" duration="1227000" />
+      <workItem from="1685294855519" duration="935000" />
+      <workItem from="1685297144295" duration="71000" />
+      <workItem from="1685315546908" duration="4608000" />
+      <workItem from="1685538377818" duration="3638000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Homework">
+      <created>1683134808885</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683134808886</updated>
+    </task>
+    <task id="LOCAL-00002" summary="LinkedListHomeWork">
+      <created>1685291371130</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685291371130</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Homework" />
+    <MESSAGE value="LinkedListHomeWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedListHomeWork" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/MostafaSaad/Excrises/singlyLinkedList/homework2/LinkedListTest.java</url>
+          <line>86</line>
+          <properties class="MostafaSaad.Excrises.singlyLinkedList.homework2.LinkedListTest" method="removeEvenPostion">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/homework2/LinkedList.java</url>
+          <line>192</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/homework3/LinkedList.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
