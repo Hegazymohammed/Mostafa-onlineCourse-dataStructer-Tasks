@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdccb80-8fcc-4036-9c4a-3a0ec6fcf626" name="Changes" comment="HomeWork1 jun1 time 11.14">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="bbdccb80-8fcc-4036-9c4a-3a0ec6fcf626" name="Changes" comment="HomeWork1 jun1 time 14:25 finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/doublyLinkedList/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/doublyLinkedList/DoublyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,7 +31,7 @@
   </component>
   <component name="ProjectId" id="2PFy6ExsecNDtEmRZ3aCKEvC8iE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,7 +55,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Presentation Assistant&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -79,7 +77,7 @@
       <recent name="MostafaSaad.Excrises.singlyLinkedList.homwork1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DoublyLinkedList1Test.testDeleteEvenPosition">
+  <component name="RunManager" selected="JUnit.DoublyLinkedList1Test.testDeleteOddPosition">
     <configuration name="DoublyLinkedList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1.DoublyLinkedList1" />
       <module name="ImplementationOfDataStructerAndAlgorighim" />
@@ -125,6 +123,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DoublyLinkedList1Test.testDeleteOddPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImplementationOfDataStructerAndAlgorighim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1" />
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1.DoublyLinkedList1Test" />
+      <option name="METHOD_NAME" value="testDeleteOddPosition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DoublyLinkedListTest.printForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImplementationOfDataStructerAndAlgorighim" />
       <extension name="coverage">
@@ -136,22 +150,6 @@
       <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.doublyLinkedList" />
       <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.doublyLinkedList.DoublyLinkedListTest" />
       <option name="METHOD_NAME" value="printForward" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoublyLinkedListTest.printReversed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ImplementationOfDataStructerAndAlgorighim" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MostafaSaad.Excrises.doublyLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.doublyLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.doublyLinkedList.DoublyLinkedListTest" />
-      <option name="METHOD_NAME" value="printReversed" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,16 +170,16 @@
       <item itemvalue="JUnit.LinkedListWithHeadTest" />
       <item itemvalue="JUnit.DoublyLinkedList1Test.deleteWithKey" />
       <item itemvalue="JUnit.DoublyLinkedList1Test.testDeleteEvenPosition" />
+      <item itemvalue="JUnit.DoublyLinkedList1Test.testDeleteOddPosition" />
       <item itemvalue="JUnit.DoublyLinkedListTest.printForward" />
-      <item itemvalue="JUnit.DoublyLinkedListTest.printReversed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DoublyLinkedList1Test.testDeleteEvenPosition" />
+        <item itemvalue="JUnit.DoublyLinkedList1Test.testDeleteOddPosition" />
         <item itemvalue="Application.DoublyLinkedList1" />
+        <item itemvalue="JUnit.DoublyLinkedList1Test.testDeleteEvenPosition" />
         <item itemvalue="JUnit.DoublyLinkedListTest.printForward" />
         <item itemvalue="JUnit.DoublyLinkedList1Test.deleteWithKey" />
-        <item itemvalue="JUnit.DoublyLinkedListTest.printReversed" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +227,8 @@
       <workItem from="1685538377818" duration="5721000" />
       <workItem from="1685545882277" duration="2978000" />
       <workItem from="1685549962058" duration="4288000" />
-      <workItem from="1685604323156" duration="4787000" />
+      <workItem from="1685604323156" duration="8874000" />
+      <workItem from="1685618290763" duration="524000" />
     </task>
     <task id="LOCAL-00001" summary="First Homework">
       <created>1683134808885</created>
@@ -266,7 +265,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685607248611</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HomeWork1 jun1 time 11.14">
+      <created>1685609433281</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685609433281</updated>
+    </task>
+    <task id="LOCAL-00007" summary="HomeWork1 jun1 time 11.56">
+      <created>1685609781087</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685609781087</updated>
+    </task>
+    <task id="LOCAL-00008" summary="HomeWork1 jun1 time 14:25 finished">
+      <created>1685618760164</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685618760164</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +308,9 @@
     <MESSAGE value="LinkedListHomeWork" />
     <MESSAGE value="test" />
     <MESSAGE value="HomeWork1 jun1 time 11.14" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork1 jun1 time 11.14" />
+    <MESSAGE value="HomeWork1 jun1 time 11.56" />
+    <MESSAGE value="HomeWork1 jun1 time 14:25 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork1 jun1 time 14:25 finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -311,6 +333,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/homework3/LinkedList.java</url>
           <line>184</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/doublyLinkedList/HomeWork1/DoublyLinkedList1.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
