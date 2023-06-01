@@ -68,7 +68,16 @@ public class DoublyLinkedList1 extends DoublyLinkedList {
     }
 
 
+    public boolean isPalindrome(){
+        if(length<1)
+            return true;
+        int iteration=length/2,counter=1;
 
+        for(Node tempHead = head, tempTail = tail;iteration<=counter ;tempHead=tempHead.next,tempTail=tempTail.previous)
+                            if(tempTail.data!=tempHead.data)
+                                return false;
+        return true;
+    }
 
     public static void main(String[] args) {
         List<Integer>list= List.of(1);
