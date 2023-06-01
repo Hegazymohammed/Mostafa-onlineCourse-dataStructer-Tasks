@@ -126,4 +126,30 @@ public class DoublyLinkedList {
     public void makeLinkedList(List<Integer>values){
             values.forEach((value)->insertToBesorted(value));
     }
+
+    public void deleteFirst(){
+        if(nodeIsNull(head))
+            return;
+        head=head.next;
+        link(null,head);
+        decreaseLength();
+        if(length==0)
+            tail=null;
+    }
+
+
+    public void deleteLast(){
+            if(nodeIsNull(tail))
+                return;
+            tail=tail.previous;
+            link(tail,null);
+            decreaseLength();
+            if(length==0)
+                head=null;
+    }
+
+    public void clearLinkedList(){
+        head=tail=null;
+        length=0;
+    }
 }
