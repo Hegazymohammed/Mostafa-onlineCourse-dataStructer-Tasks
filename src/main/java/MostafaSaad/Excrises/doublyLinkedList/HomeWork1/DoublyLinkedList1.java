@@ -79,15 +79,7 @@ public class DoublyLinkedList1 extends DoublyLinkedList {
         return true;
     }
 
-    public static void main(String[] args) {
-        List<Integer>list= List.of(1);
-        DoublyLinkedList1 linkedList1=new DoublyLinkedList1();
-        linkedList1.makeLinkedList(list);
-        linkedList1.deleteOddPosition();
-        linkedList1.printForward();
 
-
-    }
 
 
 }
