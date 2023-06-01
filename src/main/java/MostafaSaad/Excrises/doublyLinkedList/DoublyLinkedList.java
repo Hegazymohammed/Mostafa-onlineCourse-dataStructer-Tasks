@@ -6,18 +6,18 @@ import java.util.List;
 import static MostafaSaad.Excrises.utilityClass.Utility.*;
 
 public class DoublyLinkedList {
-    private Node head;
-    private Node tail;
-    private int length;
+    protected Node head;
+    protected Node tail;
+    protected int length;
 
     public DoublyLinkedList() {
         this.length = 0;
     }
 
     public void printReversed() {
-        for (Node node = tail; node != null; node = node.previous)
+        for (Node node = tail; !nodeIsNull(node); node = node.previous)
             print(node.data);
-
+        System.out.println();
     }
 
     public Node getHead() {
@@ -63,11 +63,11 @@ public class DoublyLinkedList {
         increaseLength();
     }
 
-    private Node createNode(int data) {
+    protected Node createNode(int data) {
         return new Node(data);
     }
 
-    private void link(Node first, Node second) {
+    protected void link(Node first, Node second) {
         if (first != null)
             first.next = second;
         if (second != null)
@@ -76,15 +76,16 @@ public class DoublyLinkedList {
     }
 
     public void printForward() {
-        for (Node node = head; head != null; node = node.next)
+        for (Node node = head;!nodeIsNull(node); node = node.next)
             print(node.data);
+        System.out.println();
     }
 
     private void increaseLength() {
         length += 1;
     }
 
-    private void decreaseLength() {
+    protected void decreaseLength() {
         length -= 1;
     }
 
@@ -99,13 +100,13 @@ public class DoublyLinkedList {
     }
     public void insertToBesorted(int data){
 
-        if(length==0|data<head.data)
+        if(length==0||data<=head.data)
             insertFront(data);
-        else if(data>tail.data)
+        else if(data>=tail.data)
             insertEnd(data);
         else{
             for(Node current = head; !nodeIsNull(current); current = current.next){
-                     if(current.data>data)
+                     if(current.data>=data)
                          embedAfter(current,data);
             }
         }
@@ -118,7 +119,7 @@ public class DoublyLinkedList {
                 increaseLength();
     }
 
-    private boolean nodeIsNull(Node node) {
+    protected boolean nodeIsNull(Node node) {
         return node == null ? true : false;
     }
 

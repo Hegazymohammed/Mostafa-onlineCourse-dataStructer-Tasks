@@ -4,9 +4,9 @@ import java.util.Iterator;
 import java.util.function.Consumer;
 
 public class Node   {
-    int data;
-    Node   previous;
-    Node   next;
+    public int data;
+   public  Node   previous;
+   public  Node   next;
 
     public Node(int data,Node previous,Node next){
             this.data=data;
