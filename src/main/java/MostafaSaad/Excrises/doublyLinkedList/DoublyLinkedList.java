@@ -68,9 +68,9 @@ public class DoublyLinkedList {
     }
 
     protected void link(Node first, Node second) {
-        if (first != null)
+        if (first != null&&first!=second)
             first.next = second;
-        if (second != null)
+        if (second != null&&first!=second)
             second.previous = first;
 
     }

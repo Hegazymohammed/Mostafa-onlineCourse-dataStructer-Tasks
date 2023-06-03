@@ -33,4 +33,18 @@ class DoublyLinkedList2Test {
         linkedList2.makeLinkedList(list);
         assertEquals(linkedList2.findTheMiddle2().data,2);
     }
+
+    @Test
+    public   void  testReversedLinkedList(){
+        List<Integer> list = List.of(1, 2, 3, 4, 5, 6);
+        DoublyLinkedList2 linkedList2 = new DoublyLinkedList2();
+
+        linkedList2.makeLinkedList(list);
+        linkedList2.reverseListNode();
+        assertIterableEquals(linkedList2.getNodes(),List.of(6,5,4,3,2,1));
+        linkedList2.clearLinkedList();
+        linkedList2.makeLinkedList(List.of(1,2));
+        linkedList2.reverseListNode();
+        assertIterableEquals(linkedList2.getNodes(),List.of(2,1));
+    }
 }
