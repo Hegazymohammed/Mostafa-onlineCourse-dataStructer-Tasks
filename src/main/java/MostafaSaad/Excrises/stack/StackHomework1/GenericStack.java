@@ -1,17 +1,20 @@
-package MostafaSaad.Excrises.stack;
+package MostafaSaad.Excrises.stack.StackHomework1;
 
 import java.util.Objects;
+
 import static MostafaSaad.Excrises.utilityClass.Utility.print;
-public class Stack  {
-private int array[];
+
+
+public class GenericStack <T>{
+private T array[];
  private int arraySize;
  private int numberOfElements=-1;
 
- public Stack(int arraySize){
-     if(arraySize<5)
+ public GenericStack(int arraySize){
+     if(arraySize<1)
          arraySize=10;
      this.arraySize=arraySize;
-     array=new int[arraySize];
+     array=(T[]) new Object[arraySize];
      
  }
 
@@ -27,17 +30,17 @@ private int array[];
      numberOfElements=-1;
  }
 
- public void push(int elements){
+ public void push(T elements){
       if(isFull())
           throw new ArrayIndexOutOfBoundsException();
      array[++numberOfElements]=elements;
  }
- public int pop(){
+ public T pop(){
          Objects.equals(isEmpty(),false);
          return array[numberOfElements--];
  }
 
- public int peek(){
+ public T peek(){
      Objects.equals(isEmpty(),true);
      return array[numberOfElements];
  }
@@ -47,9 +50,6 @@ private int array[];
                     print(array[i]);
  }
 
-    public static void main(String[] args) {
-
-    }
 
 
 }
