@@ -1,6 +1,7 @@
 package MostafaSaad.Excrises.stack.StackHomework1;
 
 import java.util.Objects;
+import java.util.Stack;
 
 import static MostafaSaad.Excrises.utilityClass.Utility.print;
 
@@ -16,6 +17,10 @@ private T array[];
      this.arraySize=arraySize;
      array=(T[]) new Object[arraySize];
      
+ }
+
+ public GenericStack(){
+     this.arraySize=10;
  }
 
  public boolean isEmpty(){
@@ -50,6 +55,15 @@ private T array[];
                     print(array[i]);
  }
 
+public int getNumberOfElements(){
+     return this.numberOfElements;
+}
 
+public int  []reverseAStack( ){
+     int  reversed[]= new int [arraySize];
+        for(int i=0;i<numberOfElements+1;++i)
+                reversed[i]=(int)array[i];
+        return reversed;
+}
 
 }
