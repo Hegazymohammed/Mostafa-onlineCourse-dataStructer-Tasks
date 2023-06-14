@@ -55,10 +55,37 @@ public class LeetCodeProplems {
         return reversed;
     }
 
+    public static int scoreOfParentheses(String s) {
+            int stackLength=s.length();
+            GenericStack<Integer>stack=new GenericStack<>(stackLength);
+        for (int i = 0; i <stackLength; i++) {
+                            char value=s.charAt(i);
+
+                            if(value=='(')
+                                stack.push(0);
+                            else{
+
+                                int last=stack.peek();
+                                        stack.pop();
+                                if(last==0)
+                                    last=1;
+                                else
+                                    last*=2 ;
+                                if(!stack.isEmpty()) {
+                                    last += stack.peek();
+                                    stack.pop();
+                                }
+
+                                stack.push(last);
+                            }
+        }
+        return stack.peek();
+    }
+
 
     public static void main(String[] args) {
         int[] array ={-2,-1,1,2};
-        System.out.println(Arrays.toString(asteroidCollision(array)));
+        System.out.println(scoreOfParentheses("((()))()"));
     }
 
 }
