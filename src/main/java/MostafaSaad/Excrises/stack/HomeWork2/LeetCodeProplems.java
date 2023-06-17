@@ -83,9 +83,26 @@ public class LeetCodeProplems {
     }
 
 
+    public static int[] dailyTempreture(int[]tempretures){
+          int lengthOfTempreturesArray=tempretures.length;
+          GenericStack<Integer>stack=new GenericStack<>(lengthOfTempreturesArray);
+
+        for (int index = 0; index < lengthOfTempreturesArray; index++) {
+                        while(!stack.isEmpty()&&tempretures[index]>tempretures[stack.peek()])
+                                        tempretures[stack.peek()]=index-stack.pop();
+                        stack.push(index);
+
+
+
+        }
+        while (!stack.isEmpty())
+            tempretures[stack.pop()]=0;
+        return tempretures;
+
+    }
     public static void main(String[] args) {
-        int[] array ={-2,-1,1,2};
-        System.out.println(scoreOfParentheses("((()))()"));
+         int tempretures[]={ 73, 74, 75, 71, 69, 72, 76, 73 };
+        System.out.println(Arrays.toString(dailyTempreture(tempretures)));
     }
 
 }

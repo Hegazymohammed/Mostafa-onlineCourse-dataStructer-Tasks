@@ -1,5 +1,6 @@
 package MostafaSaad.Excrises.stack;
 
+import MostafaSaad.Excrises.stack.StackPart2.StackUsingLinkedList;
 import org.junit.jupiter.api.Test;
 
 import java.util.Objects;
@@ -45,7 +46,19 @@ class StackTest {
 
 
     @Test
-    void peek() {
+    void testStackBasedOnLinkedList(){
+        StackUsingLinkedList<Integer>stack=new StackUsingLinkedList<>();
+
+        assertTrue(stack.push(10));
+        assertEquals(stack.peek(),10);
+        stack.push(20);
+        assertEquals(stack.peek(),20);
+        assertEquals(stack.pop(),20);
+        stack.push(30);
+        assertEquals(stack.peek(),30);
+        stack.pop();
+        stack.pop();
+        assertNull(stack.pop());
 
     }
 }
