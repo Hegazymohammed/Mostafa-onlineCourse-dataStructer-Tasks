@@ -3,7 +3,7 @@ package MostafaSaad.Excrises.doublyLinkedList;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-import MostafaSaad.Excrises.utilityClass.Utility.*;
+import MostafaSaad.Excrises.utilityClasses.Utility.*;
 class NodeTest {
 
     @Test

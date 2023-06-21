@@ -1,5 +1,5 @@
 package MostafaSaad.Excrises.stack.StackHomework1;
-import static MostafaSaad.Excrises.utilityClass.Utility.print;
+import static MostafaSaad.Excrises.utilityClasses.Utility.print;
 public class TwoStacks  {
     private int[]array1;
     private int[]array2;

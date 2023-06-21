@@ -2,7 +2,8 @@ package MostafaSaad.Excrises.stack;
 
 import MostafaSaad.Excrises.stack.StackPart2.StackUsingLinkedList;
 import org.junit.jupiter.api.Test;
-
+import org.testng.Assert;
+import static MostafaSaad.Excrises.stack.Stackpart3.stackHomeWorkpart3.*;
 import java.util.Objects;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -60,5 +61,29 @@ class StackTest {
         stack.pop();
         assertNull(stack.pop());
 
+    }
+
+    @Test
+    public void TestInfixToPostFix(){
+
+        String value="4^3^2";
+        String result=infixToPostFix(value);
+        String expected="432^^";
+        Assert.assertTrue(result.equals(expected));
+        value="5+4^3^2-9";
+        result=infixToPostFix(value);
+        expected="5432^^+9-";
+        assertTrue(result.equals(expected));
+    }
+
+    @Test
+    public void TestpostFixEvoluation(){
+         String value="12+";
+         double result=postFixEvoluation(value);
+         double expected=3;
+         assertEquals(result,expected);
+         value="52/";
+         result=postFixEvoluation(value);
+         assertEquals(result,2.5);
     }
 }

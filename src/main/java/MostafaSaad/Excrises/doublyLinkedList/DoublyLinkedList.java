@@ -3,7 +3,7 @@ package MostafaSaad.Excrises.doublyLinkedList;
 import java.util.ArrayList;
 import java.util.List;
 
-import static MostafaSaad.Excrises.utilityClass.Utility.*;
+import static MostafaSaad.Excrises.utilityClasses.Utility.*;
 
 public class DoublyLinkedList {
     protected Node head;

@@ -1,7 +1,7 @@
 package MostafaSaad.Excrises.stack;
 
 import java.util.Objects;
-import static MostafaSaad.Excrises.utilityClass.Utility.print;
+import static MostafaSaad.Excrises.utilityClasses.Utility.print;
 public class Stack  {
 private int array[];
  private int arraySize;

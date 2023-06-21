@@ -1,11 +1,11 @@
 package MostafaSaad.Excrises.stack.StackHomework1;
 
-import java.util.Stack;
+import MostafaSaad.Excrises.generic.GenericStack;
 
 public class LeetCodeProplems {
     public static boolean isVAlid(String s){
         final int length=s.length();
-        GenericStack<Character>stack=new GenericStack<>(length);
+        GenericStack<Character> stack=new GenericStack<>(length);
         char[]parentheses=s.toCharArray();
         for(char character:parentheses){
                 if(character=='('||character=='{'||character=='[')

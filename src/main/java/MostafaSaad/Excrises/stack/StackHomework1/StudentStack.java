@@ -1,5 +1,5 @@
 package MostafaSaad.Excrises.stack.StackHomework1;
-import static MostafaSaad.Excrises.utilityClass.Utility.print;
+import static MostafaSaad.Excrises.utilityClasses.Utility.print;
 
 import java.util.Arrays;
 
