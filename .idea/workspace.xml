@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdccb80-8fcc-4036-9c4a-3a0ec6fcf626" name="Changes" comment="HomeWork1 jun1 time 14:25 finished">
+    <list default="true" id="bbdccb80-8fcc-4036-9c4a-3a0ec6fcf626" name="Changes" comment="Queue finishing homework1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/queue/homework2/PriorityQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/Tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/Tree/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +18,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,8 +51,9 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_directory_selection&quot;: &quot;/home/hammo/Mostafa-onlineCourse/dataStructer/Tree/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/hammo/Mostafa-onlineCourse/dataStructer/Tasks&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hammo/Mostafa-onlineCourse-dataStructer-Tasks&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -64,26 +71,27 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="MostafaSaad.Excrises.queue" />
       <recent name="MostafaSaad.Excrises.doublyLinkedList.HomeWork1" />
       <recent name="MostafaSaad.Excrises.doublyLinkedList" />
       <recent name="MostafaSaad.Excrises.singlyLinkedList" />
       <recent name="MostafaSaad.Excrises.singlyLinkedList.homework3" />
-      <recent name="MostafaSaad.Excrises.singlyLinkedList.homework2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MostafaSaad.Excrises.queue.homework1" />
       <recent name="MostafaSaad.Excrises.singlyLinkedList" />
       <recent name="MostafaSaad.Excrises.singlyLinkedList.homework3" />
       <recent name="MostafaSaad.Excrises.singlyLinkedList.homework2" />
       <recent name="MostafaSaad.Excrises.singlyLinkedList.homwork1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DoublyLinkedList1Test.testDeleteOddPosition">
-    <configuration name="DoublyLinkedList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1.DoublyLinkedList1" />
+  <component name="RunManager" selected="Application.SpecilaCircularQueue">
+    <configuration name="QueueUsing2Stack1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.queue.homework1.QueueUsing2Stack1" />
       <module name="ImplementationOfDataStructerAndAlgorighim" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1.*" />
+          <option name="PATTERN" value="MostafaSaad.Excrises.queue.homework1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,65 +99,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedList1Test.deleteWithKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpecilaCircularQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.queue.homework2.SpecilaCircularQueue" />
       <module name="ImplementationOfDataStructerAndAlgorighim" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1.*" />
+          <option name="PATTERN" value="MostafaSaad.Excrises.queue.homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1" />
-      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1.DoublyLinkedList1Test" />
-      <option name="METHOD_NAME" value="deleteWithKey" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CirularQueueTest.dequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImplementationOfDataStructerAndAlgorighim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MostafaSaad.Excrises.generic.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.queue" />
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.queue.CirularQueueTest" />
+      <option name="METHOD_NAME" value="dequeue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedList1Test.testDeleteEvenPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CirularQueueTest.enqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImplementationOfDataStructerAndAlgorighim" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1.*" />
+          <option name="PATTERN" value="MostafaSaad.Excrises.generic.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1" />
-      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1.DoublyLinkedList1Test" />
-      <option name="METHOD_NAME" value="testDeleteEvenPosition" />
+      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.queue" />
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.queue.CirularQueueTest" />
+      <option name="METHOD_NAME" value="enqueue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedList1Test.testDeleteOddPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CirularQueueTest.testEnqueueFrontDeque" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImplementationOfDataStructerAndAlgorighim" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1.*" />
+          <option name="PATTERN" value="MostafaSaad.Excrises.queue.homework1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1" />
-      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.doublyLinkedList.HomeWork1.DoublyLinkedList1Test" />
-      <option name="METHOD_NAME" value="testDeleteOddPosition" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoublyLinkedListTest.printForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ImplementationOfDataStructerAndAlgorighim" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MostafaSaad.Excrises.doublyLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.doublyLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.doublyLinkedList.DoublyLinkedListTest" />
-      <option name="METHOD_NAME" value="printForward" />
+      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.queue" />
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.queue.CirularQueueTest" />
+      <option name="METHOD_NAME" value="testEnqueueFrontDeque" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,20 +171,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DoublyLinkedList1" />
+      <item itemvalue="Application.SpecilaCircularQueue" />
+      <item itemvalue="Application.QueueUsing2Stack1" />
       <item itemvalue="JUnit.LinkedListWithHeadTest" />
-      <item itemvalue="JUnit.DoublyLinkedList1Test.deleteWithKey" />
-      <item itemvalue="JUnit.DoublyLinkedList1Test.testDeleteEvenPosition" />
-      <item itemvalue="JUnit.DoublyLinkedList1Test.testDeleteOddPosition" />
-      <item itemvalue="JUnit.DoublyLinkedListTest.printForward" />
+      <item itemvalue="JUnit.CirularQueueTest.dequeue" />
+      <item itemvalue="JUnit.CirularQueueTest.enqueue" />
+      <item itemvalue="JUnit.CirularQueueTest.testEnqueueFrontDeque" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DoublyLinkedList1Test.testDeleteOddPosition" />
-        <item itemvalue="Application.DoublyLinkedList1" />
-        <item itemvalue="JUnit.DoublyLinkedList1Test.testDeleteEvenPosition" />
-        <item itemvalue="JUnit.DoublyLinkedListTest.printForward" />
-        <item itemvalue="JUnit.DoublyLinkedList1Test.deleteWithKey" />
+        <item itemvalue="Application.SpecilaCircularQueue" />
+        <item itemvalue="Application.QueueUsing2Stack1" />
+        <item itemvalue="JUnit.CirularQueueTest.testEnqueueFrontDeque" />
+        <item itemvalue="JUnit.CirularQueueTest.dequeue" />
+        <item itemvalue="JUnit.CirularQueueTest.enqueue" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +234,14 @@
       <workItem from="1685549962058" duration="4288000" />
       <workItem from="1685604323156" duration="8874000" />
       <workItem from="1685618290763" duration="524000" />
+      <workItem from="1687092142281" duration="6074000" />
+      <workItem from="1687234929855" duration="10003000" />
+      <workItem from="1687327760228" duration="4873000" />
+      <workItem from="1687342119059" duration="630000" />
+      <workItem from="1687350200311" duration="106000" />
+      <workItem from="1687415045605" duration="2605000" />
+      <workItem from="1687505191778" duration="1297000" />
+      <workItem from="1687541550317" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="First Homework">
       <created>1683134808885</created>
@@ -286,7 +299,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685618760164</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="QueuePart1">
+      <created>1687329790072</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687329790072</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Queue part 1">
+      <created>1687329824843</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687329824843</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Queue finishing homework1">
+      <created>1687333010180</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687333010180</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +331,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -310,7 +356,10 @@
     <MESSAGE value="HomeWork1 jun1 time 11.14" />
     <MESSAGE value="HomeWork1 jun1 time 11.56" />
     <MESSAGE value="HomeWork1 jun1 time 14:25 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork1 jun1 time 14:25 finished" />
+    <MESSAGE value="QueuePart1" />
+    <MESSAGE value="Queue part 1" />
+    <MESSAGE value="Queue finishing homework1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Queue finishing homework1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -323,6 +372,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/queue/homework2/SpecilaCircularQueue.java</url>
+          <line>48</line>
+          <properties class="MostafaSaad.Excrises.queue.homework2.SpecilaCircularQueue" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/homework2/LinkedList.java</url>
@@ -338,6 +396,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/doublyLinkedList/HomeWork1/DoublyLinkedList1.java</url>
           <line>85</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MostafaSaad/Excrises/stack/StackTest.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MostafaSaad/Excrises/queue/CirularQueueTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

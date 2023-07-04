@@ -1,5 +1,7 @@
 package MostafaSaad.Excrises.Tree;
 
+import MostafaSaad.Excrises.generic.Tree.Node;
+
 import java.util.*;
 
 public class Tree {

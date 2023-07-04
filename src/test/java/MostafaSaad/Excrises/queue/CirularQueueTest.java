@@ -1,6 +1,6 @@
 package MostafaSaad.Excrises.queue;
 
-import MostafaSaad.Excrises.generic.CirularQueue;
+import MostafaSaad.Excrises.generic.queue.CirularQueue;
 import MostafaSaad.Excrises.queue.homework1.Deque;
 import org.junit.jupiter.api.Test;
 

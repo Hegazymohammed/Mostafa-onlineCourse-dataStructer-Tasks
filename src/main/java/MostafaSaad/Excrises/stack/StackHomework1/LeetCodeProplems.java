@@ -1,6 +1,6 @@
 package MostafaSaad.Excrises.stack.StackHomework1;
 
-import MostafaSaad.Excrises.generic.GenericStack;
+import MostafaSaad.Excrises.generic.Stack.GenericStack;
 
 public class LeetCodeProplems {
     public static boolean isVAlid(String s){

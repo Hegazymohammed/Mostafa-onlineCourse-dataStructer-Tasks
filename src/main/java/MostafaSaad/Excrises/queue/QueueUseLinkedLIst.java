@@ -1,6 +1,6 @@
 package MostafaSaad.Excrises.queue;
 
-import MostafaSaad.Excrises.generic.LinkedList;
+import MostafaSaad.Excrises.generic.LinkedList.LinkedList;
 
 public class QueueUseLinkedLIst<E> {
     private LinkedList<E>list;

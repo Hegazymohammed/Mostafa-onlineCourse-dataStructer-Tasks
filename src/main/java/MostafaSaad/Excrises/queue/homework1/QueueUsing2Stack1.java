@@ -1,6 +1,6 @@
 package MostafaSaad.Excrises.queue.homework1;
 
-import MostafaSaad.Excrises.generic.GenericStack;
+import MostafaSaad.Excrises.generic.Stack.GenericStack;
 
 public class QueueUsing2Stack1 {
     private GenericStack<Integer>stack1;
