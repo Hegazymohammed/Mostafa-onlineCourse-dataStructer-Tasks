@@ -225,10 +225,7 @@ public class Tree {
         System.out.println();
     }
 
-    public Tree(Deque<Integer> preorder, List<Integer> inorder) {
-        int start = 0, end = preorder.size() - 1;
-        root = new Node(preorder, inorder, start, end);
-    }
+
 
     public void parenthisizingATree(Node node) {
 
