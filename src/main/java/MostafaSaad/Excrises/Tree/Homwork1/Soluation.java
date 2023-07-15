@@ -1,5 +1,9 @@
 package MostafaSaad.Excrises.Tree.Homwork1;
 
+import MostafaSaad.Excrises.Tree.Tree;
+import com.beust.ah.A;
+
+import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -61,14 +65,66 @@ class Solution {
         return left;
     }
 
+    public int pathSum(TreeNode root, int targetSum) {
+        return pathSum(root,targetSum,0);
+    }
+
+    public int pathSum(TreeNode root,int targetSum, int result){
+            int count=0;
+        if(root==null)
+            return 0;
+        result+=root.val;
+        if(result==targetSum) {
+            count++;
+            result=root.val;
+        }
+
+        count+= pathSum(root.left,targetSum,result);
+        count+= pathSum(root.right,targetSum,result);
+         count+= pathSum(root.left,targetSum,0);
+         count+= pathSum(root.right,targetSum,0);
+        return  count;
+
+    }
+
+    public int diameterOfBinaryTree(TreeNode root) {
+        int array[]=new int[2];
+        return diameterOfBinaryTree(root,array);
+    }
+
+    //calculate the result of the left branch
+    //calculate the result of the right branch
+    //make a comparison between them
+    //return the result +1
+    public int diameterOfBinaryTree(TreeNode root,int array[]) {
+        if(root==null)
+            return 0;
+        int leftChild=0,rightChild=0;
+        if(root.left!=null){
+            leftChild=diameterOfBinaryTree(root.left ) ;
+            array[0]=Math.max(leftChild,array[0])+1;
+        }
+        if(root.right!=null){
+            rightChild=diameterOfBinaryTree(root.left ) ;
+            array[1]=Math.max(rightChild,array[1])+1;
+        }
+
+        return Math.max(array[0],array[1]);
+    }
+
+
     public static void main(String[] args) {
 
-        List<List<Integer>>levels=new ArrayList<>(3);
-        TreeExcrises root=new TreeExcrises(3);
-        root.add(List.of(9),List.of('l'));
-        root.add(List.of(20,15),List.of('r','l'));
-        root.add(List.of(20,7),List.of('r','r'));
+
+        TreeExcrises root=new TreeExcrises(1);
+
+        root.add(List.of(2,4),List.of('l','l'));
+        root.add(List.of(2,5),List.of('l','r'));
+        root.add(List.of(3),List.of('l'));
+
+
         Solution solution=new Solution();
-        System.out.println(solution.levelsoFTheTree(root.root));
+        System.out.println(solution.diameterOfBinaryTree(root.root));
+
     }
 }
