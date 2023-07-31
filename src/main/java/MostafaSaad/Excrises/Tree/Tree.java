@@ -262,6 +262,9 @@ public class Tree {
     }
 
     public String parenthiszing() {
+
+        List<String>list=new ArrayList<>();
+
         return parenthiszing(root);
     }
 
