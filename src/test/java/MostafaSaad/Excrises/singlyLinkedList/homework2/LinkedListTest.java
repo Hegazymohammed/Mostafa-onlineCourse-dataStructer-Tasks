@@ -20,8 +20,8 @@ class LinkedListTest {
         list.makeLinedList(values);
         assertNotEquals(list.head, null);
         assertNotEquals(list.tail, null);
-        assertEquals(list.head.data, 1);
-        assertEquals(list.tail.data, 5);
+        assertEquals(list.head.val, 1);
+        assertEquals(list.tail.val, 5);
         assertEquals(list.length, 5);
         list.deleteByKey(1);
         List<Integer> result = list.getNodes();
@@ -70,7 +70,7 @@ class LinkedListTest {
         }
         else if(list.length==1){
             assertEquals(list.head,list.tail);
-            assertEquals(list.head.data,list.head.data);
+            assertEquals(list.head.val,list.head.val);
         }
 
         else if(list.length==2){
@@ -78,8 +78,8 @@ class LinkedListTest {
         }
         else
         {
-            assertEquals(list.head.data, expectedHeadValue);
-            assertEquals(list.tail.data, expectedtailValue);
+            assertEquals(list.head.val, expectedHeadValue);
+            assertEquals(list.tail.val, expectedtailValue);
         }
     }
 

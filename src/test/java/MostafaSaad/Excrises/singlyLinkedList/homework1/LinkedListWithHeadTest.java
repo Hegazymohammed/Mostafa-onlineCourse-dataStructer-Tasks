@@ -14,11 +14,11 @@ class LinkedListWithHeadTest {
           LinkedListWithHead list=new LinkedListWithHead();
           assertEquals(list.head,null);
           list.addElement(10);
-          assertEquals(list.head.data,10);
+          assertEquals(list.head.val,10);
           list.addElement(20);
           list.addElement(30);
           list.addElement(40);
-          assertEquals(list.head.data,40);
+          assertEquals(list.head.val,40);
           list.print();
         List<Integer>result=list.copyOfList().stream().map((value)->Integer.parseInt(value)).toList();
         List<Integer>expected= Arrays.asList(40,30,20,10);

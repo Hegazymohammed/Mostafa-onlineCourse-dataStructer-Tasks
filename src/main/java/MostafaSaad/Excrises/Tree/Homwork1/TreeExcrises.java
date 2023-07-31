@@ -1,9 +1,6 @@
 package MostafaSaad.Excrises.Tree.Homwork1;
 
-import MostafaSaad.Excrises.generic.Tree.Node;
-
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 import static MostafaSaad.Excrises.utilityClasses.Utility.print;
 
@@ -103,7 +100,128 @@ class TreeExcrises {
 
     }
 
-    public static void main(String[] args) {
 
+    public void PrintLevelOrder(){
+        Queue<TreeNode>nodes=new ArrayDeque<>();
+        nodes.add(root);
+        while(!nodes.isEmpty()){
+            int size=nodes.size();
+            while ((size)>0){
+            TreeNode current=nodes.poll();
+            if(current.left!=null)
+                nodes.add(current.left);
+            if(current.right!=null)
+                nodes.add(current.right);
+            System.out.print(current.val+" ");
+                size--;
+
+            }
+            System.out.println();
+
+        }
+    }
+
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+        List<List<Integer>>levels=new ArrayList<>( );
+
+
+        Deque<TreeNode>nodes=new ArrayDeque<>();
+        nodes.push(root );
+        int level=0;
+        boolean isForwad =false;
+        while(!nodes.isEmpty()){
+            levels.add(new ArrayList<Integer>( ));
+
+            int size=nodes.size();
+            while(size>0){
+                TreeNode current;
+                if(isForwad){
+                    current=nodes.pollFirst();
+                    if(current.right!=null)
+                        nodes.offerLast(current.right);
+
+                    if(current.left!=null)
+                        nodes.offerLast(current.left);
+
+
+                }
+
+                else{
+                    current=nodes.pollLast( );
+                    if(current.left!=null)
+                    nodes.offerFirst(current.left);
+                    if(current.right!=null)
+                    nodes.offerFirst(current.right);
+
+
+                }
+
+                levels.get(level).add(current.val);
+                size--;
+
+            }
+            isForwad =!isForwad;
+            level++;
+
+        }
+
+        return levels;
+    }
+
+
+        public boolean isCompleteTree(TreeNode root) {
+            if (root == null)
+                return true;
+
+            Queue<TreeNode> q = new LinkedList<>(Arrays.asList(root));
+
+            while (q.peek() != null) {
+                int value=q.peek().val;
+                TreeNode node = q.poll();
+                q.offer(node.left);
+                q.offer(node.right);
+            }
+
+            while (!q.isEmpty() && q.peek() == null)
+                q.poll();
+
+            return q.isEmpty();
+        }
+
+
+
+    public List<Integer> rightSideView(TreeNode root) {
+        if (root == null) return new ArrayList<Integer>();
+
+        ArrayDeque<TreeNode> queue = new ArrayDeque(){{ offer(root); }};
+        List<Integer> rightside = new ArrayList();
+
+        while (!queue.isEmpty()) {
+            int levelLength = queue.size();
+
+            for(int i = 0; i < levelLength; ++i) {
+                TreeNode node = queue.poll();
+                // if it's the rightmost element
+                if (i == levelLength - 1) {
+                    rightside.add(node.val);
+                }
+
+                // add child nodes in the queue
+                if (node.left != null) {
+                    queue.offer(node.left);
+                }
+                if (node.right != null) {
+                    queue.offer(node.right);
+                }
+            }
+        }
+        return rightside;
+    }
+    public static void main(String[] args) {
+        TreeExcrises tree=new TreeExcrises(1);
+        tree.add(List.of(2),List.of('l'));
+
+
+        ArrayDeque<Integer>queue=new ArrayDeque<>(){{offer(5);offer(5);}};
     }
 }

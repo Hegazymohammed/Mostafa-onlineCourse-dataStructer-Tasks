@@ -79,7 +79,7 @@ public class LinkedList {
         public int search(int value){
                 int index=0;
                 for(Node current=head;current!=null;current=current.next,index++)
-                            if(current. data==value)
+                            if(current.val ==value)
                                 return index;
                 return -1;
 
@@ -107,7 +107,7 @@ public class LinkedList {
                         if(this.length!=list.length)
                             return false;
                         for(Node node=head,node2=list.head;node!=null;node=node.next,node2=node2.next)
-                                    if(node. data!=node2. data )
+                                    if(node.val !=node2.val)
                                         return false;
                         return true;
         }

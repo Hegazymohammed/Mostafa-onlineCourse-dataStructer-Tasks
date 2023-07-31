@@ -1,10 +1,8 @@
 package MostafaSaad.Excrises.singlyLinkedList.homework3;
 
 import MostafaSaad.Excrises.singlyLinkedList.Node;
-import org.testng.annotations.Test;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import static org.testng.AssertJUnit.assertEquals;
@@ -61,7 +59,7 @@ public class LinkedList {
     public List<Integer> getNodes() {
         List<Integer> nodes = new ArrayList<>();
         for (Node node = head; node != null; node = node.next) {
-            nodes.add(node.data);
+            nodes.add(node.val);
         }
         return nodes;
     }
@@ -137,7 +135,7 @@ public class LinkedList {
             isRepeated = false;
             Node previous = node;
             for (Node current = node.next; current != null && previous != null; ) {
-                if (current.data == node.data) {
+                if (current.val == node.val) {
                     if (current == tail)
                         tail = previous;
                     previous.next = previous.next.next;
@@ -177,7 +175,7 @@ public class LinkedList {
         Node lastOccurance = null, previous = head;
         boolean isFound = false;
         for (Node current = head; current != null; previous = current, current = current.next)
-            if (current.data == key) {
+            if (current.val == key) {
                 lastOccurance = previous;
                 isFound = true;
             }
@@ -210,7 +208,7 @@ public class LinkedList {
         Node prevoius=null,current=head,tempForTail=tail;
 
         for(;current!=tempForTail;){
-                    if(current.data==key) {
+                    if(current.val ==key) {
                         shiftNode(prevoius);
                             if(prevoius!=null)
                                  current=prevoius.next;

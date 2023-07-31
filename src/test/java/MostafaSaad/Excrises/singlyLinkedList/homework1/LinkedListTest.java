@@ -39,7 +39,7 @@ class LinkedListTest {
         List<Integer>values=new ArrayList<>(List.of(0,1,2,3,4,6));
         list.makeLinedList(values);
         assertNotEquals(list. head,list.tail);
-        assertEquals(list.getNthNode(2).data,1);
+        assertEquals(list.getNthNode(2).val,1);
 
     }
 
@@ -49,9 +49,9 @@ class LinkedListTest {
         List<Integer> values=new ArrayList<>(List.of(0,1,2,3,4,6));
         list.makeLinedList(values);
 
-       assertEquals(list.getNthFromBack(2).data,4);
-        assertEquals(list.getNthFromBack(1).data,6);
-        assertEquals(list.getNthFromBack(3).data,3);
+       assertEquals(list.getNthFromBack(2).val,4);
+        assertEquals(list.getNthFromBack(1).val,6);
+        assertEquals(list.getNthFromBack(3).val,3);
     }
 
     @Test

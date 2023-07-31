@@ -54,7 +54,7 @@ public class LinkedList {
     public List<Integer> getNodes() {
         List<Integer> nodes = new ArrayList<>();
         for (Node node = head; node != null; node = node.next) {
-            nodes.add(node.data);
+            nodes.add(node.val);
         }
         return nodes;
     }
@@ -78,7 +78,7 @@ public class LinkedList {
     public int search(int value) {
         int index = 0;
         for (Node current = head; current != null; current = current.next, index++)
-            if (current.data == value)
+            if (current.val == value)
                 return index;
         return -1;
 
@@ -138,7 +138,7 @@ public class LinkedList {
             isRepeated = false;
             Node previous = node;
             for (Node current = node.next; current != null && previous != null; ) {
-                if (current.data == node.data) {
+                if (current.val == node.val) {
                     if (current == tail)
                         tail = previous;
                     previous.next = previous.next.next;
@@ -257,7 +257,7 @@ public class LinkedList {
             //Memorey complixty O(n)time and memory
             if(node==null)
                 return 0;
-            return Math.max(node.data,maxRecursive(node.next));
+            return Math.max(node.val,maxRecursive(node.next));
     }
 
     public int maxRecursive(){

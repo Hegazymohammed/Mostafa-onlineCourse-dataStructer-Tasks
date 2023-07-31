@@ -52,7 +52,7 @@ public class LinkedList {
     public List<Integer> getNodes() {
         List<Integer> nodes = new ArrayList<>();
         for (Node node = head; node != null; node = node.next) {
-            nodes.add(node.data);
+            nodes.add(node.val);
         }
         return nodes;
     }
@@ -79,14 +79,14 @@ public class LinkedList {
 
     public void deleteByKey(int target) {
         //Memory o(1) memory and o(n) time
-        if (head.data == target) {
+        if (head.val == target) {
             if (length == 1)
                 head = tail = null;
             else
                 head = head.next;
         } else {
             for (Node previous = null, current = head; current != null; previous = current, current = current.next)
-                if (current.data == target) {
+                if (current.val == target) {
                     if (current == tail)
                         tail = previous;
                     previous.next = current.next;
@@ -107,9 +107,9 @@ public class LinkedList {
 
     private void swapNodesData(Node node1) {
         Node node2 = node1.next;
-        int temp = node1.data;
-        node1.data = node2.data;
-        node2.data = temp;
+        int temp = node1.val;
+        node1.val = node2.val;
+        node2.val = temp;
     }
 
     public void clearLinkedList() {
@@ -161,7 +161,7 @@ public class LinkedList {
             boolean max=false;
             while (current != null) {
 
-                if (value <= current.data) {
+                if (value <= current.val) {
 
                     if (current == head)
                         insertFirst(value);

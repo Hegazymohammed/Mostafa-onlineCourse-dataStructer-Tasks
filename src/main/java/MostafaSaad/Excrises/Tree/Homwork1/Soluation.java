@@ -1,11 +1,14 @@
 package MostafaSaad.Excrises.Tree.Homwork1;
 
 import MostafaSaad.Excrises.Tree.Tree;
+import MostafaSaad.Excrises.singlyLinkedList.Node;
 import com.beust.ah.A;
 
 import java.sql.Array;
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
+
 
 class Solution {
     public boolean hasPathSum(TreeNode root, int targetSum) {

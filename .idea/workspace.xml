@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdccb80-8fcc-4036-9c4a-3a0ec6fcf626" name="Changes" comment="Queue finishing homework1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/queue/homework2/PriorityQueue.java" afterDir="false" />
+    <list default="true" id="bbdccb80-8fcc-4036-9c4a-3a0ec6fcf626" name="Changes" comment="Tree HomeWork1.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/Tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/Tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/Tree/Homwork1/Soluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/Tree/Homwork1/Soluation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/Tree/Homwork1/TreeExcrises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/Tree/Homwork1/TreeExcrises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/homework1/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/homework1/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/homework2/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/homework2/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/homework3/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/homework3/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MostafaSaad/Excrises/singlyLinkedList/homework1/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MostafaSaad/Excrises/singlyLinkedList/homework1/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MostafaSaad/Excrises/singlyLinkedList/homework1/LinkedListWithHeadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MostafaSaad/Excrises/singlyLinkedList/homework1/LinkedListWithHeadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MostafaSaad/Excrises/singlyLinkedList/homework2/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MostafaSaad/Excrises/singlyLinkedList/homework2/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MostafaSaad/Excrises/singlyLinkedList/homework3/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MostafaSaad/Excrises/singlyLinkedList/homework3/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,32 +52,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/hammo/Mostafa-onlineCourse/dataStructer/Tree/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/hammo/Mostafa-onlineCourse-dataStructer-Tasks&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "/home/hammo/Mostafa-onlineCourse/dataStructer/Tree/src/test/java",
+    "last_opened_file_path": "/home/hammo/dev-spring-boot/05-spring-security/00-spring-boot-rest-security-employee-starter-code",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="MostafaSaad.Excrises.Tree.Homwork1" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="MostafaSaad.Excrises.Tree.Homwork1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="MostafaSaad.Excrises.queue" />
@@ -85,13 +100,13 @@
       <recent name="MostafaSaad.Excrises.singlyLinkedList.homwork1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpecilaCircularQueue">
-    <configuration name="QueueUsing2Stack1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.queue.homework1.QueueUsing2Stack1" />
+  <component name="RunManager" selected="Application.TreeExcrises">
+    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.Tree.MinStack" />
       <module name="ImplementationOfDataStructerAndAlgorighim" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MostafaSaad.Excrises.queue.homework1.*" />
+          <option name="PATTERN" value="MostafaSaad.Excrises.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpecilaCircularQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.queue.homework2.SpecilaCircularQueue" />
+    <configuration name="MostafaSaad.Excrises.singlyLinkedList.Soluation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.singlyLinkedList.Soluation" />
       <module name="ImplementationOfDataStructerAndAlgorighim" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MostafaSaad.Excrises.queue.homework2.*" />
+          <option name="PATTERN" value="MostafaSaad.Excrises.singlyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,50 +127,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CirularQueueTest.dequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Soluation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.Tree.Homwork1.Soluation" />
       <module name="ImplementationOfDataStructerAndAlgorighim" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MostafaSaad.Excrises.generic.LinkedList.*" />
+          <option name="PATTERN" value="MostafaSaad.Excrises.Tree.Homwork1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.queue" />
-      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.queue.CirularQueueTest" />
-      <option name="METHOD_NAME" value="dequeue" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CirularQueueTest.enqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.Tree.Homwork1.Solution" />
       <module name="ImplementationOfDataStructerAndAlgorighim" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MostafaSaad.Excrises.generic.LinkedList.*" />
+          <option name="PATTERN" value="MostafaSaad.Excrises.Tree.Homwork1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.queue" />
-      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.queue.CirularQueueTest" />
-      <option name="METHOD_NAME" value="enqueue" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CirularQueueTest.testEnqueueFrontDeque" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeExcrises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.Tree.Homwork1.TreeExcrises" />
       <module name="ImplementationOfDataStructerAndAlgorighim" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MostafaSaad.Excrises.queue.homework1.*" />
+          <option name="PATTERN" value="MostafaSaad.Excrises.Tree.Homwork1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="MostafaSaad.Excrises.queue" />
-      <option name="MAIN_CLASS_NAME" value="MostafaSaad.Excrises.queue.CirularQueueTest" />
-      <option name="METHOD_NAME" value="testEnqueueFrontDeque" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,20 +177,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SpecilaCircularQueue" />
-      <item itemvalue="Application.QueueUsing2Stack1" />
+      <item itemvalue="Application.MostafaSaad.Excrises.singlyLinkedList.Soluation" />
+      <item itemvalue="Application.MinStack" />
+      <item itemvalue="Application.Soluation" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.TreeExcrises" />
       <item itemvalue="JUnit.LinkedListWithHeadTest" />
-      <item itemvalue="JUnit.CirularQueueTest.dequeue" />
-      <item itemvalue="JUnit.CirularQueueTest.enqueue" />
-      <item itemvalue="JUnit.CirularQueueTest.testEnqueueFrontDeque" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpecilaCircularQueue" />
-        <item itemvalue="Application.QueueUsing2Stack1" />
-        <item itemvalue="JUnit.CirularQueueTest.testEnqueueFrontDeque" />
-        <item itemvalue="JUnit.CirularQueueTest.dequeue" />
-        <item itemvalue="JUnit.CirularQueueTest.enqueue" />
+        <item itemvalue="Application.TreeExcrises" />
+        <item itemvalue="Application.MostafaSaad.Excrises.singlyLinkedList.Soluation" />
+        <item itemvalue="Application.MinStack" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Soluation" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +326,39 @@
       <option name="project" value="LOCAL" />
       <updated>1687333010180</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tree revision">
+      <option name="closed" value="true" />
+      <created>1688457313349</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688457313349</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Tree revision1">
+      <option name="closed" value="true" />
+      <created>1688457424818</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688457424818</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Tree HomeWork1">
+      <option name="closed" value="true" />
+      <created>1688921624977</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688921624977</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Tree HomeWork1.2">
+      <option name="closed" value="true" />
+      <created>1689432787095</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689432787095</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +397,11 @@
     <MESSAGE value="QueuePart1" />
     <MESSAGE value="Queue part 1" />
     <MESSAGE value="Queue finishing homework1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queue finishing homework1" />
+    <MESSAGE value="Tree revision" />
+    <MESSAGE value="Tree revision1" />
+    <MESSAGE value="Tree HomeWork1" />
+    <MESSAGE value="Tree HomeWork1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tree HomeWork1.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -376,11 +418,20 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/queue/homework2/SpecilaCircularQueue.java</url>
           <line>48</line>
-          <properties class="MostafaSaad.Excrises.queue.homework2.SpecilaCircularQueue" method="main">
+          <properties class="MostafaSaad.Excrises.queue.homework2.SpecilaCircularQueue" method="next">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/Tree/MinStack.java</url>
+          <line>42</line>
+          <properties class="MostafaSaad.Excrises.Tree.MinStack" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/homework2/LinkedList.java</url>
@@ -389,7 +440,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/homework3/LinkedList.java</url>
-          <line>184</line>
+          <line>182</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -407,7 +458,36 @@
           <line>36</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/Tree/Homwork1/Soluation.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/Node.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/Tree/Homwork1/TreeExcrises.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MostafaSaad/Excrises/singlyLinkedList/Node.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="MostafaSaad.Excrises.singlyLinkedList.Node" memberName="val" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

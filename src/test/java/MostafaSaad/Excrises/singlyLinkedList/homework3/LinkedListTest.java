@@ -15,13 +15,13 @@ class LinkedListTest {
         LinkedList linkedList = new LinkedList();
         linkedList.insertEnd(10);
         linkedList.swapHeadAndTail();
-        assertEquals(linkedList.head.data, linkedList.tail.data);
+        assertEquals(linkedList.head.val, linkedList.tail.val);
         linkedList.insertEnd(20);
-        assertEquals(linkedList.head.data,10);
-        assertEquals(linkedList.tail.data,20);
+        assertEquals(linkedList.head.val,10);
+        assertEquals(linkedList.tail.val,20);
         linkedList.swapHeadAndTail();
-        assertEquals(linkedList.head.data,20);
-        assertEquals(linkedList.tail.data,10);
+        assertEquals(linkedList.head.val,20);
+        assertEquals(linkedList.tail.val,10);
         linkedList.clearLinkedList();
         linkedList.makeLinedList(list);
         linkedList.swapHeadAndTail();
