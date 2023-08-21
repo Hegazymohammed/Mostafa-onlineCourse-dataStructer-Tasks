@@ -7,6 +7,7 @@ public class MinHeap {
 
     public MinHeap(int size) {
         this.size = size;
+        array=new int[size];
     }
 
     public void push(int value) {
@@ -36,13 +37,14 @@ public class MinHeap {
     }
 
     private int parent(int child) {
-        return (child - 1) / 2;
+        return child==0?-1:(child - 1) / 2;
     }
 
     //if i want to pop
     public int pop(){
         int value=array[0];
-        swap(0,--numberOfElement);
+        swap(0,numberOfElement-1);
+        numberOfElement--;
 
         heapfydown( 0);
         return value;
@@ -51,9 +53,9 @@ public class MinHeap {
     public void heapfydown(int parent){
             int leftPos=leftChild(parent);
             int rightPos=rightChild(parent);
-            if(leftPos==-1||rightPos==-1)
+            if(leftPos==-1 )
                 return ;
-            if(array[leftPos]>array[rightPos])
+            if(rightPos!=-1&&array[leftPos]>array[rightPos])
                     leftPos=rightPos;
             if(array[parent]>array[leftPos]){
                 swap(parent,leftPos);
@@ -61,9 +63,31 @@ public class MinHeap {
             }
     }
     private int leftChild(int parent ){
-        return parent>=size?-1:parent*2+1;
+        int p=2*parent+1;
+        return p>=numberOfElement?-1:p;
     }
     private int rightChild(int parent ){
-        return parent>=size?-1:parent*2+2;
+        int p=2*parent+2;
+        return p>=numberOfElement?-1:p;
+    }
+
+    public boolean isEmpty(){
+        return numberOfElement==0?true:false;
+    }
+
+    public int top(){
+        return array[0];
+    }
+    public static void main(String[] args) {
+        int array[]={2,17,22,10,8,37};
+            MinHeap heap=new MinHeap(6);
+            for(int i=0;i<array.length;++i)
+                    heap.push(array[i]);
+
+            while (!heap.isEmpty()){
+                System.out.println(heap.pop());
+
+            }
+
     }
 }
