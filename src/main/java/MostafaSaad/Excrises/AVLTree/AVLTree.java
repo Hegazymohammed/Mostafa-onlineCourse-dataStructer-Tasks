@@ -1,31 +1,11 @@
 package MostafaSaad.Excrises.AVLTree;
 
-  class Node{
-    public Node  left;
-    public Node right;
-    public int height;
-    public int data;
-    public Node(int data){
-        this.data=data;
-    }
+public class AVLTree{
+    public Node root;
 
-    public int changeHight(Node child){
-                if(child==null)
-                    return -1;
-                return child.height;
+    public AVLTree(int data){
+        root=new Node(data);
     }
-
-    public int updateHight(){
-
-        return 1+Math.max(left.height,right.height);
-    }
-
-    public int balanceFactor(){
-        return changeHight(left)-changeHight(right);
-    }
-}
-class AVLTree{
-    Node root;
     public Node rotateRight(Node root){
         Node pivot=root.left;
         Node child=pivot.right;
@@ -65,28 +45,28 @@ class AVLTree{
     }
 
 
-    private  Node insert(int value, Node root){
+    private  Node insert(int value, Node node){
 
-                if(value>root.data){
-                    if(root.left==null)
-                        root.left=new  Node(value);
+                if(value<node.data){
+                    if(node.left==null)
+                        node.left=new  Node(value);
                     else
-                    root.left=insert(value,root.left);
+                        node.left=insert(value,node.left);
 
                 }
-                else if(root.data<value) {
-                    if(root.right==null)
-                        root.right=new  Node(value);
+                else if(node.data<value) {
+                    if(node.right==null)
+                        node.right=new  Node(value);
                     else
-                    root.right = insert(value, root.right);
+                    node.right = insert(value, node.right);
 
                 }
-                root.updateHight();
-                return balance(root);
+                node.updateHight();
+                return balance(node);
     }
 
     public void insert(int value){
-            if(this==null)
+            if(root==null)
                 root=new  Node(value);
             else
                 root=insert(value,root);
@@ -131,6 +111,53 @@ class AVLTree{
     }
 
 
+
     //deletion
+    public void delete(int data){
+            if(root==null)
+                return;
+            root=delete(data,root);
+
+    }
+
+    public void printInorder(Node root){
+            if(root==null)
+                    return ;
+            printInorder(root.left);
+            System.out.println(root.data);
+            printInorder(root.right);
+    }
+
+    public void printInorder(){
+        printInorder(root);
+    }
+
+
+    public boolean search(int target,Node node){
+                if(node==null)
+                        return false;
+                if(target==root.data)
+                        return true;
+                if(root.data>target)
+                        search(target,root.left);
+
+                    return     search(target,root.left);
+
+    }
+
+    public void insert(int[]array){
+        for(int i=0;i<array.length;++i){
+            insert(array[i]);
+        }
+    }
+
+    public static void main(String[] args) {
+        AVLTree tree=new AVLTree(23);
+        tree.insert(10);
+        tree.insert(8);
+        tree.insert(7);
+        tree.insert(5);
+        tree.printInorder();
+    }
 
 }
